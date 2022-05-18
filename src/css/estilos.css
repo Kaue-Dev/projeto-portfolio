@@ -12,13 +12,21 @@ html, body {
 
 .hello {
     color: var(--white);
+    padding-bottom: 30px;
+    font-size: 16px;
 }
 
 .nome {
-    font-size: 24px;
+    font-size: 26px;
     color: var(--cyan);
     margin: 0;
     font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.desc {
+    padding-bottom: 30px;
+    font-size: 16px;
 }
 
 button {
