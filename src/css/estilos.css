@@ -51,6 +51,21 @@ header .apresentacao {
     padding: 0 100px;
 }
 
+header .apresentacao img {
+    display: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    background: var(--dark-blue);
+    padding: 0 100px;
+    position: sticky;
+    top: 0;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -64,4 +79,33 @@ nav {
 
 nav img {
     height: 50px;
+}
+
+nav ul a {
+    font-size: 18px;
+    color: var(--white);
+    text-decoration: none;
+    margin: 0 35px;
+}
+
+section {
+    background: var(--black);
+    height: 1000px;
+}
+
+@media(max-width: 767px) {
+
+    header .apresentacao {
+        width: 100%;
+    }
+
+    header .apresentacao img {
+        display: inline;
+        height: 45px;
+        margin-bottom: 25px;
+    }
+
+    nav img {
+        display: none;
+    }
 }
