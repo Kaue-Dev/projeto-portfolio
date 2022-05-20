@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine&display=swap');
+
+body, button, input, select, textarea {
+    font-family: 'Cousine', monospace;
+    color: var(--white);
+}
+
+html, body {
+    margin: 0;
+    background: var(--black);
+}
+
+.hello {
+    color: var(--white);
+    padding-bottom: 24px;
+    font-size: 16px;
+}
+
+.nome {
+    font-size: 24px;
+    color: var(--red);
+    margin: 0;
+    font-weight: 400;
+    padding-bottom: 24px;
+}
+
+.desc {
+    padding-bottom: 24px;
+    font-size: 16px;
+}
+
+button {
+    background: var(--red);
+    border: 0;
+    border-radius: 10px;
+    padding: 8px 24px;
+    color: var(--white);
+    font-weight: normal;
+    font-size: 16px;
+}
+
+header {
+    height: calc(100vh - 65px);
+    display: flex;
+    align-items: center;
+}
+
+header .apresentacao {
+    width: 50%;
+    height: fit-content;
+    padding: 0 100px;
+}
+
+header .apresentacao img {
+    display: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    background: var(--lblack);
+    padding: 0 50px;
+    position: sticky;
+    top: 0;
+}
+
+nav img {
+    height: 50px;
+}
+
+nav ul a {
+    font-size: 16px;
+    color: var(--white);
+    text-decoration: none;
+    margin: 0 35px;
+}
+
+section {
+    background: var(--black);
+    height: 1000px;
+}

@@ -1,0 +1,16 @@
+@media(max-width: 767px) {
+
+    header .apresentacao {
+        width: 100%;
+    }
+
+    header .apresentacao img {
+        display: inline;
+        height: 45px;
+        margin-bottom: 24px;
+    }
+
+    nav img {
+        display: none;
+    }
+}
