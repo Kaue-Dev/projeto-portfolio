@@ -30,9 +30,9 @@ html, body {
 }
 
 button {
-    background: var(--red);
+    background: var(--black);
+    outline: 2px solid var(--red);
     border: 0;
-    border-radius: 10px;
     padding: 8px 24px;
     color: var(--white);
     font-weight: normal;
@@ -59,22 +59,56 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 75px;
-    background: var(--lblack);
+    height: 50px;
+    background: var(--black);
     padding: 0 50px;
     position: sticky;
     top: 0;
 }
 
 nav img {
-    height: 50px;
+    height: 40px;
+}
+
+nav ul .botao {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--white);
+    /*outline: 2px solid var(--white);*/
+    padding: 15px 50px;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.5s;
+}
+
+.botao:hover {
+    color: #DA0037;
+    /*outline: 2px solid var(--red);*/
+    transition: color 0.7s;
+}
+
+.botao::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -30px;
+    width: 0;
+    height: 100%;
+    background-color: var(--lblack);
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: width 0.5s;
+}
+
+.botao:hover::before {
+    width: 128%;
 }
 
 nav ul a {
     font-size: 16px;
     color: var(--white);
     text-decoration: none;
-    margin: 0 35px;
+    margin: 0 20px;
 }
 
 section {
