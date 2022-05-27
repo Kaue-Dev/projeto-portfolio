@@ -33,10 +33,10 @@ button {
     background: var(--black);
     outline: 2px solid var(--red);
     border: 0;
-    padding: 8px 24px;
+    padding: 8px 35px;
     color: var(--white);
     font-weight: normal;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 header {
@@ -59,9 +59,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 70px;
+    height: 75px;
     background: var(--lblack);
-    padding: 0 50px;
+    padding: 0 100px;
     position: sticky;
     top: 0;
 }
@@ -76,9 +76,19 @@ nav ul a {
     margin: 0 20px;
 }
 
-section {
-    background: var(--black);
-    height: 1000px;
+.sobre-mim {
+    display: flex;
+    padding: 100px;
+}
+
+.sobre-mim .apresentacao {
+    width: 50%;
+    padding-right: 80px;
+}
+
+.sobre-mim .img-container img {
+    width: 50%;
+    height: 100%;
 }
 
 /* Inicio da animação dos botões */
