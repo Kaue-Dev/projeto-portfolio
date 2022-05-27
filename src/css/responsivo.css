@@ -1,3 +1,4 @@
+/* Quando a tela for abaixo de 767px */
 @media(max-width: 767px) {
 
     header .apresentacao {
@@ -8,10 +9,6 @@
         display: inline;
         height: 45px;
         margin-bottom: 75px;
-    }
-
-    nav img {
-        display: none;
     }
 }
 
