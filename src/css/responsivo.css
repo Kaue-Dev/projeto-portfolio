@@ -10,6 +10,10 @@
         height: 45px;
         margin-bottom: 75px;
     }
+
+    nav img {
+        display: none;
+    }
 }
 
 /* Quando a tela for abaixo de 480px */
