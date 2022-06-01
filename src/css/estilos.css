@@ -63,7 +63,7 @@ nav {
     background: var(--lblack);
     padding: 0 100px;
     position: sticky;
-    top: 0;
+    top: 0px;
 }
 
 nav ul a {
@@ -83,12 +83,32 @@ nav ul a {
 
 .sobre-mim .apresentacao {
     width: 50%;
-    padding-right: 80px;
 }
 
-.sobre-mim .img-container img {
+.sobre-mim .foto {
     width: 50%;
+    text-align: center;
+    position: relative;
+    
+}
+
+.sobre-mim .foto img {
+    width: 55%;
     height: 100%;
+}
+
+.sobre-mim .foto .line {
+    width: calc(60% + 50px);
+    height: calc(100% + 50px);
+    border: 1px solid var(--red);
+    position: absolute;
+    top: -25px;
+    left: calc(50% - 60% /2 - 25px);
+}
+
+.sobre-mim .foto .line.white {
+    transform: rotate(-5.3deg);
+    color: var(--white);
 }
 
 /* Inicio da animação dos botões */
