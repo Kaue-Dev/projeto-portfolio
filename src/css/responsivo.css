@@ -1,0 +1,37 @@
+/* Quando a tela for abaixo de 767px */
+@media(max-width: 767px) {
+
+    header .apresentacao {
+        width: 100%;
+    }
+
+    header .apresentacao img {
+        display: inline;
+        height: 45px;
+        margin-bottom: 75px;
+    }
+
+    nav img {
+        display: none;
+    }
+}
+
+/* Quando a tela for abaixo de 480px */
+@media (max-width: 480px) {
+
+    header .apresentacao {
+        padding: 0 40px;
+    }
+
+    nav {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        top: unset;
+        padding: 0 15px;
+    }
+
+    nav ul a {
+        font-size: 12px;
+    }
+}
