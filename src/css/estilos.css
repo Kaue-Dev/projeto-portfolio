@@ -62,7 +62,7 @@ nav {
     height: 75px;
     background: var(--lblack);
     padding: 0 100px;
-    position: sticky;
+    position: relative;
     top: 0px;
 }
 
